@@ -50,5 +50,5 @@ export const AlertsError = ({
 
 AlertsError.propTypes = {
   theme: PropTypes.object.isRequired,
-  AlertsError: PropTypes.func.isRequired,
+  handleClose: PropTypes.func.isRequired,
 }
