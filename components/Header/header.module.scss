@@ -1,0 +1,16 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: transparent;
+}
+
+.wrapperContainer {
+  background-color: $bgHeader ;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+}
+
+.wrapperFlex {
+  max-width: 1200px;
+}

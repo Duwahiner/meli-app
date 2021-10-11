@@ -1,0 +1,14 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: $bgInput;
+  padding: 16px;
+  border-radius: 3px;
+}
+
+.contentBox {
+  border-bottom: solid 1px $bgColor;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+}

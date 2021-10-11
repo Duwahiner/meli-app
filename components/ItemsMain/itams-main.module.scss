@@ -1,0 +1,10 @@
+@import '../../assets/styles/global-config';
+
+.conainerLink {
+  span {
+    cursor: pointer;
+    &:hover {
+      color: $bgButton
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '../../assets/styles/global-config';
+
+.container {
+  background-color: $bgInput;
+  padding: 16px;
+  border-radius: 3px;
+}
+
+.contentImage {
+  width: 180px;
+  height: 180px;
+  // background-color: $bgColor;
+  margin-right: 16px !important;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.contentIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: $bgHeader;
+  margin-left: 10px !important;
+  overflow: hidden;
+}

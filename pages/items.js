@@ -1,7 +1,7 @@
 import { Flex } from '../util/template'
 import ContainerOfRoute from '../container/ContainerOfRaute'
 
-export default function Home () {
+export default function Items () {
   return (
     <Flex>
       <ContainerOfRoute />

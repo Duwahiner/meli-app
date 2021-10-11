@@ -1,0 +1,11 @@
+@import '../../assets/styles/global-config';
+
+.buttonPrimary {
+  padding: 12px !important;
+  background-color: $bgButton;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $bgButtonHover;
+  }
+}
