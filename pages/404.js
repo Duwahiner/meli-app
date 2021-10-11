@@ -26,7 +26,7 @@ const NotFound = (props) => {
           />
         </Box>
 
-        <Box mt='32px' width={1 / 12 * 2}>
+        <Box mt='32px' width={[1 / 12 * 10, 1 / 12 * 2]}>
           <ButtonPrimary
             width={1}
             title='Regresar'
